@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<GENFUNCS_list>
+  <GENFUNCS CODFUNCS="4cfdf19d-996b-46c1-bf9d-fed5fc7c1eb8" NOME="GetArtigo" TIPORTN="C" ORDEM="1" COMENTAR="Função que permite retornar a chave primária de um artigo com base no código do armazém e do agregador (Artigo global)." DATACRIA="11/20/2017 12:00:00 AM" OPERCRIA="josegomes" DATAMUDA="7/12/2019 11:13:45 AM" OPERMUDA="josegomes" RESUMPRM="artigo, saida">
+    <GENIMPLS CODIMPLS="ac8959a8-beb9-49b7-8217-9678a10036db" CORPO="GENIMPLS\GENIMPLS.code" PLATAFOR="CPP" DATACRIA="11/27/2017 6:11:22 PM" OPERCRIA="josegomes" DATAMUDA="11/27/2017 6:26:44 PM" OPERMUDA="josegomes"/>
+    <GENIMPLS CODIMPLS="b8955943-bbb5-4213-a7cc-43aa1d47b187" CORPO="GENIMPLS\GENIMPLS.code" PLATAFOR="CS" DATACRIA="11/20/2017 11:37:15 AM" OPERCRIA="josegomes" DATAMUDA="7/12/2019 11:13:42 AM" OPERMUDA="josegomes"/>
+    <GENPRMS CODPRMS="26d62a1c-67f6-4d80-bcca-902d2de9a65d" ORDEM="1" NOME="artigo" TIPO="+" COMENTAR="Chave primária do artigo" DATACRIA="11/20/2017 11:32:23 AM" OPERCRIA="josegomes" DATAMUDA="11/20/2017 12:32:20 PM" OPERMUDA="josegomes"/>
+    <GENPRMS CODPRMS="3c018b7e-638f-4a5f-9c3e-d52f7c2e18ca" ORDEM="2" NOME="saida" TIPO="+" COMENTAR="Chave primária da saída" DATACRIA="11/20/2017 11:33:15 AM" OPERCRIA="josegomes" DATAMUDA="11/20/2017 12:32:48 PM" OPERMUDA="josegomes"/>
+  </GENFUNCS>
+</GENFUNCS_list>

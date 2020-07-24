@@ -1,0 +1,35 @@
+﻿!!_____CORPO ac8959a8-beb9-49b7-8217-9678a10036db_____!!
+return _T("");
+!!_____CORPO b8955943-bbb5-4213-a7cc-43aa1d47b187_____!!
+  /*           if (String.IsNullOrEmpty(artigo) || String.IsNullOrEmpty(saida))
+               return "";
+
+            SelectQuery sel = new SelectQuery()
+                .Select(CSGenioAarti1.FldCodartg1)
+                .From(Area.AreaARTI1)
+                .Where(CriteriaSet.And()
+                    .Equal(CSGenioAarti1.FldCodartig, artigo)
+                );
+
+            string codartgl = ConversaoBd.ToString( sp.ExecuteScalar(sel));
+
+            sel = new SelectQuery()
+                .Select(CSGenioAsaida.FldCodarma2)
+                .From(Area.AreaSAIDA)
+                .Where(CriteriaSet.And()
+                    .Equal(CSGenioAsaida.FldCodsaida, saida)
+                );
+            string codarmaz = ConversaoBd.ToString(sp.ExecuteScalar(sel));
+
+            sel = new SelectQuery()
+                .Select(CSGenioAarti1.FldCodartig)
+                .From(Area.AreaARTI1)
+                .Where(CriteriaSet.And()
+                    .Equal(CSGenioAarti1.FldCodarmaz, codarmaz)
+                    .Equal(CSGenioAarti1.FldCodartg1, codartgl)
+                );
+
+            return ConversaoBd.ToString(sp.ExecuteScalar(sel));
+
+*/
+return "";

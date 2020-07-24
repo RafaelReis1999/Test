@@ -1,0 +1,25 @@
+﻿!!_____CORPO 464ea182-065e-40ae-a555-3d3916e5fe32_____!!
+		setBaseUrl("http://localhost/gnt");
+		setUsr("Quidgest");		
+		setPsw("1234");		
+		
+		Login();
+		
+		NavigationPage nav = new NavigationPage(getDriver(), "0", getBaseUrl());
+		nav.navigateToMenu(GNTMenus.Menu_CONSUMO);
+		DBEdit_GNT_Menu_CONSUMO dbEdit = new DBEdit_GNT_Menu_CONSUMO(getDriver());		
+		ListPage db = dbEdit.search("5");
+		db.executeAction("show", 0);		
+		
+		try {
+			Thread.sleep(4000);
+		} catch (InterruptedException e) {			
+			e.printStackTrace();
+		}
+!!_____CORPO e85556f6-24b4-4972-b6c7-45faaa2d454a_____!!
+import com.quidgest.uitests.controls.ListPage;
+import com.quidgest.uitests.core.NavigationPage;
+import com.quidgest.uitests.pages.DBEdit_GNT_Menu_CONSUMO;
+import com.quidgest.uitests.pages.GNTMenus;
+!!_____CORPO fe1a54f9-2686-4466-be8c-6eb32269529c_____!!
+//TESTE TETSTEST ETS
